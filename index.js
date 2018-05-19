@@ -39,3 +39,10 @@
         
         // console.log(adult);
 
+// Template strings
+
+    // const name = 'Guna';
+    // const age = 28;
+
+    // const sentence = `My Name is ${name}, and i am ${age * 2 } years old`;
+    // console.log(sentence);
