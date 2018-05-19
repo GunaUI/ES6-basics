@@ -1,3 +1,3 @@
-let greetings = "Hello NEC";
+// Diff between VAR and LET
 
-console.log(greetings);
+// Let is based on block scope where is VAR is based on functional scope.
