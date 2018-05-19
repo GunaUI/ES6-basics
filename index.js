@@ -47,7 +47,7 @@
     // const sentence = `My Name is ${name}, and i am ${age * 2 } years old`;
     // console.log(sentence);
 
-// Prototype Methods
+// ES5 - Prototype Methods
 
     // const person = {
     //     name: 'bill',
@@ -66,3 +66,30 @@
     // const bill = new Person('bill', 50);
 
     // bill.speak();
+
+// ES6 - classes
+
+    class Person {
+
+        constructor(name, age, children){
+            this.name = name;
+            this.age = age;
+            this.children = children;
+        }
+
+        speak(){
+            console.log(`Hai my name is ${this.name}`);
+        }
+
+        birth(child){
+            this.children.push(child);
+            return this.children;
+        }
+
+    }
+
+    const bill = new Person('bill', 50,['steph', 'sean']);
+
+    bill.speak();
+    bill.birth('jess');
+    console.log(bill.children);
