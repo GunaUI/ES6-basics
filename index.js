@@ -46,3 +46,23 @@
 
     // const sentence = `My Name is ${name}, and i am ${age * 2 } years old`;
     // console.log(sentence);
+
+// Prototype Methods
+
+    // const person = {
+    //     name: 'bill',
+    //     age: 50
+    // };
+
+    // function Person(name, age){
+    //     this.name = name;
+    //     this.age = age;
+    // };
+
+    // Person.prototype.speak = function() {
+    //     console.log(`Hai my name is ${this.name}`);
+    // };
+
+    // const bill = new Person('bill', 50);
+
+    // bill.speak();
