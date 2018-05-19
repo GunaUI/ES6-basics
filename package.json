@@ -1,0 +1,30 @@
+{
+  "name": "es6-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GunaUI/ES6-basics.git"
+  },
+  "keywords": [
+    "ES6",
+    "ES7",
+    "ECMA",
+    "SCRPT"
+  ],
+  "author": "Gunaseelan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GunaUI/ES6-basics/issues"
+  },
+  "homepage": "https://github.com/GunaUI/ES6-basics#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
